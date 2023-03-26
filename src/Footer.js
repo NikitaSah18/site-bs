@@ -1,8 +1,9 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 const Footer = () => (
-    <footer fluid style={{ backgroundColor: '#212529', color: '#fff' }}>
+    
+        
+    <footer fluid style={{ backgroundColor: '#212529', color: '#fff' }} >
         <div className="container-fluid text-center text-md-left">
             <div className="row">
                 <div className="col-md-6 mt-md-0 mt-3">
@@ -36,8 +37,11 @@ const Footer = () => (
         <div className="footer-copyright text-center py-3">© 2023 Банк Тинькок
 
         </div>
+        
 
-    </footer>
+      </footer>
+   
+   
 
 )
 export default Footer;

@@ -31,6 +31,7 @@ export default function NaviBar() {
             <Styles>
                 
                 <Navbar  className='me-auto mb-2 mb-lg-0' collapseOnSelect expand="lg" bg="warning" variant="dark" >
+                
                     <Navbar.Brand><Link to="/"> Банк Тинькок</Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" />
@@ -38,7 +39,7 @@ export default function NaviBar() {
 
                         
                         <Nav.Link ><Link to="/Company">О комании</Link></Nav.Link>
-                        <Nav.Link ><Link to="/Credits">Кредитные карты</Link> </Nav.Link>
+                        <Nav.Link ><Link to="/Credits">Наши продукты</Link> </Nav.Link>
                     </Nav>
                     <Nav>
 

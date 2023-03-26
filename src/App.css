@@ -64,3 +64,16 @@ div{
 .link {
   text-decoration: none;
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+}
+.f-button {
+  width: 830px;
+  height: 60px;
+  background:warning;
+  padding: 8px ,16px;
+  
+}
